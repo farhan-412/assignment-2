@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+#quicksand-family {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* shared style */
+
+.display-flex{
+  display: flex;
+}
+*{
+    margin: 0px;
+}
+
+/* header style  */
+.school{
+  color: rgb(17, 17, 17);
+  font-size: 32px;
+  font-weight: 700;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.navbar{
+  justify-content: space-between;
+  margin: 5px;
+}
+.navbar > ul > li{
+    list-style: none;
+    margin-left: 40px;
+}
+.navbar>ul> li> a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+.info-1{
+  color: rgb(254, 163, 1);
+}
+.info-2{
+  color: rgb(1, 172, 253);
+}
+.info-3{
+  color: rgb(5, 212, 223);
+}
+.info-4{
+  color: rgb(93, 88, 239);
+}
+.nav-btn{
+  background-color: rgb(254, 163, 1);
+  margin-left: 200px;
+  margin-right: 50px;
+  color: white;
+  padding: 2px 40px ;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* main style  */
+
+/* styled banner section */
+.banner{
+    gap: 150px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title{
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 700 ;
+}
+#empower{
+  color:  rgb(254, 163, 1);;
+}
+#vision{
+  color: rgb(1, 172, 253);
+}
+.banner-description{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(17, 17, 17);
+  margin: 20px 0;
+}
+.banner-btn{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 24px;
+}
+
+
+
+/* media quary for small devices
+*/
+
+@media screen and (max-width:576px) {
+
+  .hide-min{
+      display: none;
+    }
+    .bar{
+      width: 35px;
+      height: 5px;
+      background-color: black;
+      margin: 6px 0;
+    }
+    .navbar{
+      padding-bottom: 10px;
+      border-bottom:2px solid rgb(254, 163, 1);
+      width: 500x;
+      justify-content: space-between;
+    }
+    .banner{
+      flex-direction: column-reverse;
+    }
+    .banner-img{
+      width: 100%;
+    }
+    .banner-content{
+      text-align: center;
+    }
+    .banner-title{
+      font-size: 32px;
+    }
+    .banner-description{
+      font-size: 14px;
+    }
+
+}
+
+

@@ -394,6 +394,21 @@ footer{
     .small-img{
       gap: 10px;
     }
+    footer{
+      padding:0;
+    }
+    .foot{
+      flex-direction: column;
+    }
+    .footer-part-1{
+      margin-top: 50px;
+      margin: 10px;
+      width: auto;
+    }
+    .about, .logoes{
+      margin: 10px;
+    }
+
 }
 
 
